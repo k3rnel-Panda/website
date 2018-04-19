@@ -1,4 +1,4 @@
-body {  
+body {
   font-family: sans-serif;
   color: #F0F0F0 !important;
   margin: 0;
@@ -47,4 +47,35 @@ footer {
   box-sizing: border-box;
   background-color: #212121;
   color: #F0F0F0;
+}
+
+.flex-container{
+    width: 1380px;
+    text-align: center;
+    margin: 0 auto;
+}
+#discord-icon{
+  padding-left: 900px;
+  font-size: 25px;
+}
+#github-icon{
+  padding-left: 40px;
+  font-size: 25px;
+}
+#reddit-icon{
+  padding-left: 40px;
+  font-size: 25px;
+}
+.header-divider{
+    border-left:1px solid #38546d;
+    border-right:1px solid #16222c;
+    height:40px;
+    position:absolute;
+    right:80px;
+    top:1px;
+}
+.flex-right{
+  justify-content: space-around;
+  width: 50px;
+  font-size: 25px;
 }
