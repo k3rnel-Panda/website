@@ -9,27 +9,47 @@
   <title>learnFE</title>
   <link rel="stylesheet" type="text/css" href="index.css" />
 </head>
-<body >
+<body>
   <header>
-      <img src="assets/learnFELogo.png" id="logo"  alt="learnFE" />
-      <h1 style="font-size:20px">learnFE</h1>
-      <div class="flex-container">
-      <a href="#"><i class="fab fa-discord" id="discord-icon"></i></a>
-      <a href="#"><i class="fab fa-github" id="github-icon"></i></a>
-      <a href="#"><i class="fab fa-reddit" id="reddit-icon"></i></a>
-    </div>
-      <div class="header-divider"></div>
-      <div class="flex-right"><a href="#"><i class="fas fa-language"></i></a>
+      <div id="logo-container">
+        <img src="assets/learnFELogo.png" id="logo"  alt="learnFE" />
+        <h1 id="title">learnFE</h1>
       </div>
+      <ul id="header-right">
+        <li class="social-icon">
+          <a href="https://discordapp.com/invite/KqvpKaw" target="_blank">
+            <i class="fab fa-discord" id="discord-icon"></i>
+          </a>
+        </li>
+        <li class="social-icon">
+          <a href="https://www.reddit.com/" target="_blank">
+            <i class="fab fa-reddit" id="reddit-icon"></i>
+          </a>
+        </li>
+        <li class="social-icon">
+          <a href="https://github.com/learnFE" target="_blank">
+            <i class="fab fa-github" id="github-icon"></i>
+          </a>
+        </li>
+        <li class="social-icon">
+            <i class="fas fa-language"></i>
+        </li>
+      </ul>
   </header>
   <main>
     <section id="home">
-      learnFrontEnd
+      Home Section
+    </section>
+    <section id="about">
+      About Section
+    </section>
+    <section id="members">
+      Members Section
     </section>
   </main>
   <footer class="flex-container">
-    <small>Made with love by the learnFE Team</small>
+    <small>Made with <i class="fas fa-heart"></i> by the learnFE Team</small>
   </footer>
-  <script src="index.js"></script>
+  <script src="scripts/misc.js"></script>
 </body>
 </html>

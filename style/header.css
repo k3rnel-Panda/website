@@ -1,0 +1,71 @@
+header {
+  background: #212121;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+/* 
+  An id should be used just once, to share the same style with multiple
+  elements use classes.
+*/
+#logo-container {
+  display: flex;
+  align-items: center;
+}
+
+#logo-container img {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+  border-radius: 4px;
+}
+/* A website should have only one h1 element */
+h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+#header-right {
+  padding: 0 1rem;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.social-icon {
+  padding: 0.5rem;
+  box-sizing: border-box;
+  font-size: 1.8rem;
+}
+
+.social-icon:last-child::before  {
+  content: ' | ';
+  color: #454545;
+}
+
+.social-icon a {
+  text-decoration: none;
+  color: #F0F0F0;
+}
+
+.social-icon a i:hover {
+  transition: 0.8s;
+  font-size: 2rem;
+}
+
+#discord-icon:hover {
+  color: #a9bdff;
+}
+
+#reddit-icon:hover {
+  color: #fa4800;
+}
+
+#github-icon:hover {
+  color: grey;
+}

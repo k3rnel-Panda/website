@@ -1,81 +1,21 @@
+@import './style/normalize.css';
+/* Do not remove or modify normalize.css file for more info visit: https://necolas.github.io/normalize.css/ */
+@import './style/header.css';
+@import './style/home-section.css';
+@import './style/about-section.css';
+@import './style/members-section.css';
+@import './style/footer.css';
+
 body {
   font-family: sans-serif;
+  font-size: 1.5rem !important;
   color: #F0F0F0 !important;
   margin: 0;
   padding: 0;
 }
 
-header {
-  background: #212121;
-  display: flex;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  width: 100vw;
-}
-
-#logo {
-  height: 30px;
-  width: 30px;
-  margin: 5px;
-  border-radius: 4px;
-}
-
-h1 {
-  margin: 0;
-  font-size: 1rem;
-}
-
 section {
   height: 100vh;
-  padding: 3rem 1rem;
+  padding: 45px 1rem 1.5rem 1rem;
   box-sizing: border-box;
-}
-
-#home {
-  background-color: #EE6823;
-}
-
-footer {
-  margin: 0;
-  bottom: 0;
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding: 0.5rem 0;
-  box-sizing: border-box;
-  background-color: #212121;
-  color: #F0F0F0;
-}
-
-.flex-container{
-    width: 1380px;
-    text-align: center;
-    margin: 0 auto;
-}
-#discord-icon{
-  padding-left: 900px;
-  font-size: 25px;
-}
-#github-icon{
-  padding-left: 40px;
-  font-size: 25px;
-}
-#reddit-icon{
-  padding-left: 40px;
-  font-size: 25px;
-}
-.header-divider{
-    border-left:1px solid #38546d;
-    border-right:1px solid #16222c;
-    height:40px;
-    position:absolute;
-    right:80px;
-    top:1px;
-}
-.flex-right{
-  justify-content: space-around;
-  width: 50px;
-  font-size: 25px;
 }

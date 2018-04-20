@@ -1,0 +1,15 @@
+footer {
+  margin: 0;
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  padding: 0.5rem 0;
+  box-sizing: border-box;
+  background-color: #212121;
+  color: #F0F0F0;
+}
+
+footer small i {
+  color: #ec4646;
+}
